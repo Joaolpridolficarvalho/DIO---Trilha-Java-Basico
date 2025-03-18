@@ -15,6 +15,7 @@ public class Counter {
             System.out.println("O segundo parâmetro deve ser maior que o primeiro");
 
         }
+        terminal.close();
 
     }
     static void count(int firstParameter, int secondParameter ) throws InvalidParametersException {
